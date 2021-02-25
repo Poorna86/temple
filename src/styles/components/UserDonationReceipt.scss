@@ -1,0 +1,36 @@
+.donation_receipt{
+    margin-top: 5%;
+    margin-left: 35%;
+    display: flex;
+    text-align: center;
+    position: relative; 
+    width:240px;
+}
+
+.submitted_successful-Msg{
+    color: #008000;
+    margin-left: 35%;
+}
+
+@media screen and (max-width: 600px) {
+    .donation_receipt {
+        margin-top: 5%;
+        margin-left: 50px;
+        display: block;
+        text-align: unset;
+        position: relative; 
+        width:240px;
+        font-size: 14px;
+    }
+    .donation_receipt input {
+        border-width: 1px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .submitted_successful-Msg{
+        color: #008000;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}

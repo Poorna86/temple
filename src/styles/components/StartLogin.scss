@@ -1,0 +1,67 @@
+.modal.show .modal-dialog {
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.form_margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn-block {
+    width: 40%;
+    margin-left: 20%;
+}
+
+.label_float{
+    float: left;
+}
+.mrch_signup{
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 11px;
+    float: right;
+    color: #005d99;
+  }
+
+.mrch_login{
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 11px;
+    float: right;
+    color: #005d99;
+  }
+.errorMsg {
+    color: #FF0000;
+}
+
+.sign_errorMsg{
+    color: #FF0000;
+}
+
+@media screen and (max-width: 960px) {
+    .modal.show .modal-dialog {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 14px;
+        margin-top: 20%;
+    }  
+    .card_center {
+        margin-left: 16%;
+    }
+    .card-body {
+        font-size: 14px;
+    }    
+  }
+
+  @media screen and (max-width: 600px) {
+    .sign_errorMsg{
+        color: #FF0000;
+        // margin-left: 80px;
+        font-size: 14px;
+    }
+}

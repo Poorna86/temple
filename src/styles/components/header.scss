@@ -1,0 +1,40 @@
+.header{
+    padding: 15px;
+}
+
+.Header__button{
+    background-color: darkslategrey;
+}
+
+.header-is-active{
+    margin: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+
+.title {
+    margin-left: 30%;
+}
+
+.header-is-active:hover{
+    color: rgb(203, 211, 211);
+}
+
+@media screen and (max-width: 960px) {
+    .header-is-active{
+        margin: 5px 5px;
+        font-size: 16px;
+        background-color: rgb(241, 248, 248);
+        border-radius: 5px;
+        padding: 3px;
+    }
+    .header{
+        padding: 15px;
+    }
+    .title{
+        margin-left: 25%;
+        font-size: 18px;
+    }
+}

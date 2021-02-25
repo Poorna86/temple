@@ -1,0 +1,54 @@
+.card_border-none {
+    border: none;
+}
+
+.card_center{
+    margin-left: 25%;
+}
+
+.card_header{
+    margin-left: 24%;
+}
+
+.card_title-header{
+    border: none;
+    font-size: 1.6rem;
+    margin-left: 20%;
+}
+
+.btn_merchant{
+    margin-left: 15%;
+    background-color: #d3d3d3;
+    border: #d3d3d3;
+    font-size: 1.6rem;
+    color: #000000;
+    width: 100px;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    font-family: inherit;
+}
+
+.btn_merchant:hover{
+    background-color: #d3d3d3;
+}
+
+.btn-primary:focus {
+    color: #000000;
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        justify-content: space-between;
+    }
+    .adjust_home-header {
+        width: 250px;
+        margin-left: 0;
+        font-size: 1.75rem;
+    }  
+}

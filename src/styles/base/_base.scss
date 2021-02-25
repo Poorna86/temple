@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.pageTitle{
+    margin-left: 30%;
+}
+.errorMsg {
+    color: #FF0000;
+}
+
+.table a td {
+    border: 1px solid #dee2e6;
+}
+
+@media screen and (max-width: 960px) {
+    .pageTitle{
+        font-size: 18px;
+    }
+    .login_errormsg{
+        color: #FF0000;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .login_successful-Msg{
+        color: #008000;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px){
+    .back_navigator{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,101 @@
+.profile_header{
+    margin-left: 45%;
+    margin-top: 2px;
+}
+
+.profile_group{
+    margin-top: 5%;
+    margin-left: 35%;
+    display: flex;
+    text-align: center;
+    position: relative; 
+    width:240px;
+}
+
+.profile_group-password{
+    margin-top: 5px;
+    margin-left: 35%;
+    display: flex;
+    text-align: center;
+    position: relative; 
+    width:240px;
+}
+
+.profile_group input {
+    border:none; 
+    background-color:#fff; 
+    display:block; 
+    width: 100%; 
+    box-sizing: border-box
+}
+
+.profile_group img { 
+    position: absolute; 
+    top: 2px; 
+    right: 5px;
+    cursor: pointer;
+}
+
+.profile_group-edit input{
+    margin-left: 38%;
+    width: 210px;
+    font-size: 12px;
+}
+
+.profile_save{
+    margin-left: 45%;
+    background: #10ad84 !important;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.profile_group-password{
+    margin-top: 5px;
+    margin-left: 35%;
+    display: flex;
+    text-align: center;
+    position: relative; 
+    width:240px;
+}
+
+.profile_group-password input {
+    border:none; 
+    background-color:#fff; 
+    display:block; 
+    width: 100%; 
+    box-sizing: border-box
+}
+
+.profile_group-password img { 
+    position: absolute; 
+    top: 2px; 
+    right: 5px;
+    cursor: pointer;
+}
+
+.successful_update-Msg{
+    color: #008000;
+}
+
+@media screen and (max-width: 600px) {
+    .profile_header{
+        margin-left: 35%;
+    }
+    .profile_group{
+        margin-left: 20%;
+    }
+    .profile_group-edit input {
+        margin-left: 25%;
+    }    
+    .profile_group-password {
+        margin-left: 20%;
+    }
+    .profile_save{
+        margin-left: 32%;
+    } 
+    .successful_update-Msg{
+        color: #008000;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+}
